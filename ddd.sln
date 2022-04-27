@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Application", "DDDWebAPI.Application\DDDWebAPI.Application.csproj", "{EC770B62-3D4B-4995-8BBE-83315C5D0C34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Application.DTO", "DDDWebAPI.Application.DTO\DDDWebAPI.Application.DTO.csproj", "{88E66477-17F5-4287-AF81-D54301A0C32C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Domain", "DDDWebAPI.Domain\DDDWebAPI.Domain.csproj", "{78528CF6-B23E-4386-A6AD-B42276927BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Domain.Core", "DDDWebAPI.Domain.Core\DDDWebAPI.Domain.Core.csproj", "{5EEF29D4-7D29-4A4E-9064-7991B50963BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Domain.Services", "DDDWebAPI.Domain.Services\DDDWebAPI.Domain.Services.csproj", "{AD27C6E6-921F-40FA-91C0-AF0F01C7579E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Infrastructure.Data", "DDDWebAPI.Infrastructure.Data\DDDWebAPI.Infrastructure.Data.csproj", "{F4C62B42-00B9-419C-B771-0BBD6D466D93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Infrastruture.CrossCutting.Adapter", "DDDWebAPI.Infrastruture.CrossCutting.Adapter\DDDWebAPI.Infrastruture.CrossCutting.Adapter.csproj", "{D9F6F21F-2A4A-441F-B185-253652515A31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Infrastruture.CrossCutting.IOC", "DDDWebAPI.Infrastruture.CrossCutting.IOC\DDDWebAPI.Infrastruture.CrossCutting.IOC.csproj", "{6151646A-7F69-450C-B07A-8B75D3D5C341}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDWebAPI.Infrastruture.Repository", "DDDWebAPI.Infrastruture.Repository\DDDWebAPI.Infrastruture.Repository.csproj", "{8B39C4FF-4F1C-40F8-B67B-E25A077C0856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWeb.API", "DDDWeb.API\DDDWeb.API.csproj", "{3D16B88C-A3A9-410D-B0E5-B2CE8115A7B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC770B62-3D4B-4995-8BBE-83315C5D0C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC770B62-3D4B-4995-8BBE-83315C5D0C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC770B62-3D4B-4995-8BBE-83315C5D0C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC770B62-3D4B-4995-8BBE-83315C5D0C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E66477-17F5-4287-AF81-D54301A0C32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E66477-17F5-4287-AF81-D54301A0C32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E66477-17F5-4287-AF81-D54301A0C32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E66477-17F5-4287-AF81-D54301A0C32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78528CF6-B23E-4386-A6AD-B42276927BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78528CF6-B23E-4386-A6AD-B42276927BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78528CF6-B23E-4386-A6AD-B42276927BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78528CF6-B23E-4386-A6AD-B42276927BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEF29D4-7D29-4A4E-9064-7991B50963BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEF29D4-7D29-4A4E-9064-7991B50963BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEF29D4-7D29-4A4E-9064-7991B50963BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEF29D4-7D29-4A4E-9064-7991B50963BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD27C6E6-921F-40FA-91C0-AF0F01C7579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD27C6E6-921F-40FA-91C0-AF0F01C7579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD27C6E6-921F-40FA-91C0-AF0F01C7579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD27C6E6-921F-40FA-91C0-AF0F01C7579E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C62B42-00B9-419C-B771-0BBD6D466D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C62B42-00B9-419C-B771-0BBD6D466D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C62B42-00B9-419C-B771-0BBD6D466D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C62B42-00B9-419C-B771-0BBD6D466D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F6F21F-2A4A-441F-B185-253652515A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F6F21F-2A4A-441F-B185-253652515A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F6F21F-2A4A-441F-B185-253652515A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F6F21F-2A4A-441F-B185-253652515A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6151646A-7F69-450C-B07A-8B75D3D5C341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6151646A-7F69-450C-B07A-8B75D3D5C341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6151646A-7F69-450C-B07A-8B75D3D5C341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6151646A-7F69-450C-B07A-8B75D3D5C341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B39C4FF-4F1C-40F8-B67B-E25A077C0856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B39C4FF-4F1C-40F8-B67B-E25A077C0856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B39C4FF-4F1C-40F8-B67B-E25A077C0856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B39C4FF-4F1C-40F8-B67B-E25A077C0856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D16B88C-A3A9-410D-B0E5-B2CE8115A7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D16B88C-A3A9-410D-B0E5-B2CE8115A7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D16B88C-A3A9-410D-B0E5-B2CE8115A7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D16B88C-A3A9-410D-B0E5-B2CE8115A7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84AF0C90-8F13-4359-B5D0-23456EF415B6}
+	EndGlobalSection
+EndGlobal
